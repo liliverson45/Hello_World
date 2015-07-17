@@ -51,43 +51,6 @@ hashes.each do |h|
 end
 =end
 #========================================
-#Iteration to 100
 
-puts "Hello, I am printing to 100"
-i = 0
-while i <= 100
-	puts i
-		case 
-		when i % 3 == 0 && i % 5 == 0
-			puts 'FizzBuzz'
-		when i % 3 == 0
-			puts "Fizz"
-		when i % 5 == 0
-			puts 'Buzz'
-		else 
-			puts i
-		end
-	i += 1
-end
 
-=begin
-puts "Hello, I am printing to 100"
-def fizzbuzz(number)
-    divisibleBy3 = (number % 3 == 0)
-    divisibleBy5 = (number % 5 == 0)
-
-    case
-        when divisibleBy3 && divisibleBy5
-            puts "FizzBuzz"
-        when divisibleBy3
-            puts "Fizz"
-        when divisibleBy5
-            puts "Buzz"
-        else 
-            puts number
-    end
-end
-
-(1..100).each {|n| fizzbuzz n}
-=end
 

@@ -1,6 +1,10 @@
 #Hello_World.rb
 #========================================
 #User Entry Validation
+	
+rescue Exception => e
+	
+end
 print "Hello, please enter your name: "
 a = gets.chomp.strip
 while a == "" 
@@ -45,4 +49,3 @@ end
 hashes.each do |h|
 	puts "#{a}, #{h[:color]} is the favorite color of #{h[:name]}."
 end
-
