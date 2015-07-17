@@ -1,10 +1,7 @@
 #Hello_World.rb
 #========================================
 #User Entry Validation
-	
-rescue Exception => e
-	
-end
+
 print "Hello, please enter your name: "
 a = gets.chomp.strip
 while a == "" 
