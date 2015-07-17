@@ -49,3 +49,5 @@ end
 hashes.each do |h|
 	puts "#{a}, #{h[:color]} is the favorite color of #{h[:name]}."
 end
+
+#End of file

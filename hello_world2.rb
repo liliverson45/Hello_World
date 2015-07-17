@@ -1,7 +1,7 @@
-#Hello_World.rb
+#Hello_World2.rb
 #========================================
-#User Entry Validation
-=begin	
+#User Entry Validation with Error handling
+
 rescue Exception => e
 	
 end
@@ -49,8 +49,7 @@ end
 hashes.each do |h|
 	puts "#{a}, #{h[:color]} is the favorite color of #{h[:name]}."
 end
-=end
-#========================================
+
 
 
 
