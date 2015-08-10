@@ -2,9 +2,7 @@
 #========================================
 #User Entry Validation with Error handling
 
-rescue Exception => e
-	
-end
+
 print "Hello, please enter your name: "
 a = gets.chomp.strip
 while a == "" 
