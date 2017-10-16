@@ -23,6 +23,7 @@ puts "#{a}, please enter your 5 favorite names: "
 		name = gets.chomp.strip
 	end	
 f_name << name
+
 end
 
 f_color = []
